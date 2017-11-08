@@ -781,9 +781,10 @@ li {
 }
 .feature h4,
 .feature-3 h4 {
-    font-size: 15px;
+    font-size: 19px;
     color: #fff;
     font-weight: bold;
+    text-transform: capitalize;
     
 }
 
@@ -802,6 +803,7 @@ li {
     font-size: 14px;
     line-height: 20px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .feature i,
@@ -1162,23 +1164,28 @@ and (min-width : 551px){
    
 }
 .training01 {
-	background: url(../images/training01.png) no-repeat;
+	background: url(../images/training01.png) no-repeat #fff center top;
+	border:1px solid #ccc;
+	background-size: 100%; 
 }
 .training02 {
-	background: url(../images/training02.png) no-repeat;
+	background: url(../images/training02.png) no-repeat #fff;
+	border:1px solid #ccc;
 }
 .training03 {
-	background: url(../images/training03.png) no-repeat;
+	background: url(../images/training03.png) no-repeat #fff;
+	border:1px solid #ccc;
 } 
 .training-p {
-	padding-top: 44px;
+	padding-top: 28px;
     color: #fff;
     padding-left: 20px;
     text-align: left;
     font-weight: bold;
 }
 .training-p1 {
-	padding: 100px 20px;
+	padding: 100px 20px 60px 20px;
+	text-align: justify;
 }
 
 .training-welcome-section img {
@@ -1193,6 +1200,16 @@ and (min-width : 551px){
 .training-welcome-section h4 {
     padding-top: 20px;
     color: #777;
+}
+
+.trainingReadMoreBtn{
+	padding-top: 40px;
+}
+.trainingReadMoreBtn .btn{
+	
+	background: transparent;
+	border-radius: 0px;
+	padding: 10px 25px 10px 35px;
 }
 
 /*.training-welcome-section p {
@@ -1892,6 +1909,10 @@ footer.style-1 .footer-link li:nth-last-child(1){
 
 .call-to-action .btn-default {
     color: #1A5E81;
+    font-weight: bold;
+    border-radius: 0px;
+    padding: 8px 40px;
+    font-size: 19px;
 }
 
 
